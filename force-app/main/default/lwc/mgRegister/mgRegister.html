@@ -1,0 +1,12 @@
+<template>
+    <template lwc:if={isLoading}>
+        <lightning-spinner></lightning-spinner>
+    </template>
+    <div class="slds-p-around_small">
+        <lightning-input type="text" placeholder="First Name" value={firstName} onchange={firstNameChange} required max-length="100"></lightning-input>
+        <lightning-input type="text" placeholder="Last Name" value={lastName} onchange={lastNameChange} required max-length="100"></lightning-input>
+        <lightning-input type="email" placeholder="Email" value={email} onchange={emailChange} required max-length="100"></lightning-input>
+        <lightning-input type="text" placeholder="License code" value={license} onchange={licenseChange} required></lightning-input>
+        <lightning-button variant="brand" label="Register" class="slds-button slds-button_brand slds-button_stretch slds-m-top_medium" onclick={regClick}></lightning-button>
+    </div>
+</template>
