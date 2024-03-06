@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacture__c</fullName>
+    <externalId>false</externalId>
+    <label>Manufacture</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Region__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>South 1</fullName>
+                <default>false</default>
+                <label>South 1</label>
+            </value>
+            <value>
+                <fullName>South 2</fullName>
+                <default>false</default>
+                <label>South 2</label>
+            </value>
+            <value>
+                <fullName>South 3</fullName>
+                <default>false</default>
+                <label>South 3</label>
+            </value>
+            <value>
+                <fullName>North Uno</fullName>
+                <default>false</default>
+                <label>North Uno</label>
+            </value>
+            <value>
+                <fullName>North-west</fullName>
+                <default>false</default>
+                <label>North-west</label>
+            </value>
+            <value>
+                <fullName>Western one</fullName>
+                <default>false</default>
+                <label>Western one</label>
+            </value>
+            <value>
+                <fullName>East Crane</fullName>
+                <default>false</default>
+                <label>East Crane</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>South</controllingFieldValue>
+            <valueName>South 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>South</controllingFieldValue>
+            <valueName>South 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>South</controllingFieldValue>
+            <valueName>South 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North</controllingFieldValue>
+            <valueName>North Uno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North</controllingFieldValue>
+            <valueName>North-west</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Western one</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>East Crane</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

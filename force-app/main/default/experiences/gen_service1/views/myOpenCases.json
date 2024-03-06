@@ -1,0 +1,46 @@
+{
+  "appPageId" : "28f7cd74-fe24-465e-be0b-bfe315458e65",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "821fbea0-856b-4d40-99a4-3671f5df8772",
+  "label" : "My open cases",
+  "regions" : [ {
+    "id" : "6b6b7113-5caa-43a6-8619-658dad5cb529",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:mrCasesListPage",
+      "id" : "3d91214b-bcaa-48f8-a6d8-c01868e05e7b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "42ce87f2-1421-44eb-a756-ed3c59354053",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "852e9f7b-1861-48e3-b74a-aeff6c1715db",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My open cases"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "213d23eb-08df-4c9f-967f-60e3cee26827",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "30a08b36-96be-4c67-87dc-6bef5478e8eb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-my-open-cases"
+}

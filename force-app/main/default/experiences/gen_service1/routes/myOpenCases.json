@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "821fbea0-856b-4d40-99a4-3671f5df8772",
+  "appPageId" : "28f7cd74-fe24-465e-be0b-bfe315458e65",
+  "configurationTags" : [ ],
+  "devName" : "My_open_cases__c",
+  "id" : "84e2aa4f-aad9-44ea-b1d9-b5bf7e3fa8b9",
+  "label" : "My open cases",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-my-open-cases",
+  "type" : "route",
+  "urlPrefix" : "my-open-cases"
+}
