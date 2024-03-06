@@ -1,0 +1,11 @@
+<template>
+    <template lwc:if={isLoading}>
+        <lightning-spinner></lightning-spinner>
+    </template>
+    <lightning-datatable
+                key-field="id"
+                data={cases}
+                show-row-number-column
+                columns={columns}>
+        </lightning-datatable>
+</template>
