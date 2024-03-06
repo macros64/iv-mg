@@ -2,10 +2,19 @@
     <template lwc:if={isLoading}>
         <lightning-spinner></lightning-spinner>
     </template>
-    <lightning-datatable
+    <div class="slds-clearfix">
+        <div class="slds-float_right">
+            <lightning-button variant="Neutral" label="New" onclick={newCase}></lightning-button>
+            <lightning-button variant="Neutral" label="Export to excel" disabled></lightning-button>
+            <lightning-button variant="Neutral" label="Description"></lightning-button>
+        </div>
+    </div>
+    <div class="slds-p-top_small">
+        <lightning-datatable
                 key-field="id"
                 data={cases}
                 show-row-number-column
                 columns={columns}>
         </lightning-datatable>
+    </div>
 </template>

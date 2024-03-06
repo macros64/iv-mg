@@ -3,6 +3,11 @@
     <apiVersion>59.0</apiVersion>
     <isExposed>true</isExposed>
     <targets>
-        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="mode" type="String" />
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>
