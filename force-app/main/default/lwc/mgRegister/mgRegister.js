@@ -1,4 +1,5 @@
 import { LightningElement } from 'lwc';
+import toast from 'lightning/toast';
 import doRegister from '@salesforce/apex/MGRegisterController.Register';
 
 export default class MgRegister extends LightningElement {
@@ -39,6 +40,12 @@ export default class MgRegister extends LightningElement {
                     console.log('registration successful');
                 } else {
                     console.log('registration error' + res.message);
+                    toast.show({
+                        label: 'Registration error',
+                        message: res.message,
+                        //mode: 'dismissible',
+                        variant: 'error'
+                    }, this);
                 }
             })
             .catch(err => {

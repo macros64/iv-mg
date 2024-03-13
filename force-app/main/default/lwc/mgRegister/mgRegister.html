@@ -1,8 +1,8 @@
 <template>
-    <template lwc:if={isLoading}>
-        <lightning-spinner></lightning-spinner>
-    </template>
     <div class="slds-p-around_small">
+        <template lwc:if={isLoading}>
+            <lightning-spinner></lightning-spinner>
+        </template>
         <lightning-input type="text" placeholder="First Name" value={firstName} onchange={firstNameChange} required max-length="100"></lightning-input>
         <lightning-input type="text" placeholder="Last Name" value={lastName} onchange={lastNameChange} required max-length="100"></lightning-input>
         <lightning-input type="email" placeholder="Email" value={email} onchange={emailChange} required max-length="100"></lightning-input>
