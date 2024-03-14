@@ -1,7 +1,4 @@
 <template>
-    <template lwc:if={isLoading}>
-        <lightning-spinner></lightning-spinner>
-    </template>
     <div class="slds-clearfix">
         <div class="slds-float_right">
             <lightning-button variant="Neutral" label="New" onclick={newCase}></lightning-button>
@@ -10,11 +7,18 @@
         </div>
     </div>
     <div class="slds-p-top_small">
+        <template lwc:if={isLoading}>
+            <lightning-spinner></lightning-spinner>
+        </template>
         <lightning-datatable
                 key-field="id"
                 data={cases}
                 show-row-number-column
-                columns={columns}>
+                columns={columns}
+                sorted-by={sortedBy}
+                sorted-direction={sortDir}
+                onsort={columnSort}
+                onheaderaction={headerAction}>
         </lightning-datatable>
     </div>
 </template>

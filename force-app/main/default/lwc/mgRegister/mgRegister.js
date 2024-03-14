@@ -39,7 +39,7 @@ export default class MgRegister extends LightningElement {
                 if(res.success) {
                     console.log('registration successful');
                 } else {
-                    console.log('registration error' + res.message);
+                    console.log('reg error: ' + res.message);
                     toast.show({
                         label: 'Registration error',
                         message: res.message,
