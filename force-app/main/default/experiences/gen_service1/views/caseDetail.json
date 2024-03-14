@@ -20,19 +20,10 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "detailsTabLabel" : "Details",
-        "discussionsTabLabel" : "Feed",
-        "recordId" : "{!recordId}",
-        "relatedTabLabel" : "Related",
-        "showLegacyActivityComposer" : false,
-        "tab1Type" : "details",
-        "tab2Type" : "related",
-        "tab3Type" : "chatter",
-        "tab4Type" : "none",
-        "timelineTabLabel" : "Activity"
+        "recordId" : "{!recordId}"
       },
-      "componentName" : "forceCommunity:recordHomeTabs",
-      "id" : "1d258b4c-aec9-4373-a7d2-77067e55a0a7",
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "971dca5c-24b1-421a-a532-800eb090ea0d",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
