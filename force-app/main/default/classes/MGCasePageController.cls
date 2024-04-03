@@ -1,9 +1,10 @@
-public with sharing class MGCasePageController {
+public without sharing class MGCasePageController {
 
     @AuraEnabled
     public static List<Case> getCases(String[] statuses) {
-        String soql = 'SELECT Id, CaseNumber, Subject, CreatedDate, Status, Region__c, Manufacture__c, Inspection_Types__c, Desired_inspection_start__c, ExperienceUrl__c ' + 
-            'FROM Case WHERE RecordType.DeveloperName = \'Generators_support\'';
+        Id userId = UserInfo.getUserId();
+        String soql = 'SELECT Id, CaseNumber, Subject, CreatedDate, Status, Region__c, Manufacture__c, Inspection_Types__c, Desired_inspection_start__c, ExperienceUrl__c, StatusIconLWC__c ' + 
+            'FROM Case WHERE RecordType.DeveloperName = \'Generators_support\' AND (CreatedById = :userId OR OwnerId = :userId)';
         
         if(statuses != null && !statuses.isEmpty()) {
             soql += ' AND Status IN :statuses';

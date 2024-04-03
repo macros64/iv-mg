@@ -1,3 +1,9 @@
 <template>
-    <lightning-record-form object-api-name='Case' record-id={recordId} fields={fields} mode={mode}></lightning-record-form>
+    <lightning-card icon-name="standard:case" title={headerText}>
+        <template lwc:if={viewMode}>
+            <lightning-button label="Edit" slot="actions" onclick={editClick}></lightning-button>
+            <lightning-button lwc:if={canSubmit} label="Submit" slot="actions" onclick={submitClick}></lightning-button>
+        </template>
+        <lightning-record-form object-api-name='Case' record-id={recordId} fields={fields} mode={mode} class="slds-m-horizontal_small"></lightning-record-form>
+    </lightning-card>
 </template>

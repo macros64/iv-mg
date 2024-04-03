@@ -29,24 +29,24 @@
                 <label>South 3</label>
             </value>
             <value>
-                <fullName>North Uno</fullName>
+                <fullName>North 1</fullName>
                 <default>false</default>
-                <label>North Uno</label>
+                <label>North 1</label>
             </value>
             <value>
-                <fullName>North-west</fullName>
+                <fullName>North-west 1</fullName>
                 <default>false</default>
-                <label>North-west</label>
+                <label>North-west 1</label>
             </value>
             <value>
-                <fullName>Western one</fullName>
+                <fullName>Western 1</fullName>
                 <default>false</default>
-                <label>Western one</label>
+                <label>Western 1</label>
             </value>
             <value>
-                <fullName>East Crane</fullName>
+                <fullName>East 1</fullName>
                 <default>false</default>
-                <label>East Crane</label>
+                <label>East 1</label>
             </value>
         </valueSetDefinition>
         <valueSettings>
@@ -63,19 +63,19 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>North</controllingFieldValue>
-            <valueName>North Uno</valueName>
+            <valueName>North 1</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>North</controllingFieldValue>
-            <valueName>North-west</valueName>
+            <valueName>North-west 1</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>West</controllingFieldValue>
-            <valueName>Western one</valueName>
+            <valueName>Western 1</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>East</controllingFieldValue>
-            <valueName>East Crane</valueName>
+            <valueName>East 1</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

@@ -19,7 +19,8 @@ export default class MrCasesListPage extends NavigationMixin(LightningElement) {
             actions: [
                 { label: 'Active', checked: true, name: 'activeCases' },
                 { label: 'All', checked: false, name: 'allCases' },
-            ]
+            ],
+            cellAttributes: { iconName: { fieldName: 'StatusIconLWC__c' } }
         },
         { label: 'Region', fieldName: 'Region__c', type: 'text' },
         { label: 'Place', fieldName: 'Manufacture__c', type: 'text' }
@@ -28,7 +29,7 @@ export default class MrCasesListPage extends NavigationMixin(LightningElement) {
     sortDir = 'asc';
     sortedBy = 'CaseNumber';
 
-    activeStats = ['New', 'Working', 'Escalated'];
+    activeStats = ['Draft', 'Submitted', 'Approved', 'Working', 'Escalated'];
 
     connectedCallback() {
         this.refreshCases(this.activeStats);
