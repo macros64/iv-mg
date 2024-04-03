@@ -11,19 +11,27 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "mode" : "view",
         "recordId" : "{!recordId}"
       },
-      "componentName" : "forceCommunity:recordHeadline",
-      "id" : "82706bb4-14e6-4ef2-8e08-d7cc7eb649f3",
+      "componentName" : "c:mrCasePage",
+      "id" : "575ee1fa-e8e7-4f00-90db-a881a5a799ab",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "recordId" : "{!recordId}"
+        "canChangeSorting" : true,
+        "defaultFilter" : "",
+        "defaultSortOrderHomeFeed" : "Relevance",
+        "defaultSortOrderTopicsFeed" : "Relevance",
+        "feedDesign" : "DEFAULT",
+        "hasFeedSearch" : true,
+        "subjectId" : "{!recordId}",
+        "type" : "Record"
       },
-      "componentName" : "forceCommunity:recordDetail",
-      "id" : "971dca5c-24b1-421a-a532-800eb090ea0d",
+      "componentName" : "forceCommunity:forceCommunityFeed",
+      "id" : "dff6189f-141b-4d12-8a64-e9fb5b6ce368",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
