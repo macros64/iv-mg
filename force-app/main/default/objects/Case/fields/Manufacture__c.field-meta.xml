@@ -14,68 +14,569 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>South 1</fullName>
+                <fullName>Almeria</fullName>
                 <default>false</default>
-                <label>South 1</label>
+                <label>Almeria</label>
             </value>
             <value>
-                <fullName>South 2</fullName>
+                <fullName>Cadiz</fullName>
                 <default>false</default>
-                <label>South 2</label>
+                <label>Cadiz</label>
             </value>
             <value>
-                <fullName>South 3</fullName>
+                <fullName>Cordoba</fullName>
                 <default>false</default>
-                <label>South 3</label>
+                <label>Cordoba</label>
+            </value>
+            <value>
+                <fullName>Granada</fullName>
+                <default>false</default>
+                <label>Granada</label>
+            </value>
+            <value>
+                <fullName>Huelva</fullName>
+                <default>false</default>
+                <label>Huelva</label>
+            </value>
+            <value>
+                <fullName>Jaen</fullName>
+                <default>false</default>
+                <label>Jaen</label>
+            </value>
+            <value>
+                <fullName>Malaga</fullName>
+                <default>false</default>
+                <label>Malaga</label>
+            </value>
+            <value>
+                <fullName>Seville</fullName>
+                <default>false</default>
+                <label>Seville</label>
+            </value>
+            <value>
+                <fullName>Huesca</fullName>
+                <default>false</default>
+                <label>Huesca</label>
+            </value>
+            <value>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+                <label>Zaragoza</label>
+            </value>
+            <value>
+                <fullName>Teruel</fullName>
+                <default>false</default>
+                <label>Teruel</label>
+            </value>
+            <value>
+                <fullName>Asturias</fullName>
+                <default>false</default>
+                <label>Asturias</label>
+            </value>
+            <value>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+                <label>Mallorca</label>
+            </value>
+            <value>
+                <fullName>Ibiza</fullName>
+                <default>false</default>
+                <label>Ibiza</label>
+            </value>
+            <value>
+                <fullName>Menorca</fullName>
+                <default>false</default>
+                <label>Menorca</label>
+            </value>
+            <value>
+                <fullName>Formentera</fullName>
+                <default>false</default>
+                <label>Formentera</label>
+            </value>
+            <value>
+                <fullName>Alava</fullName>
+                <default>false</default>
+                <label>Alava</label>
+            </value>
+            <value>
+                <fullName>Biscay</fullName>
+                <default>false</default>
+                <label>Biscay</label>
+            </value>
+            <value>
+                <fullName>Gipuzkoa</fullName>
+                <default>false</default>
+                <label>Gipuzkoa</label>
+            </value>
+            <value>
+                <fullName>El Hierro</fullName>
+                <default>false</default>
+                <label>El Hierro</label>
+            </value>
+            <value>
+                <fullName>La Palma</fullName>
+                <default>false</default>
+                <label>La Palma</label>
+            </value>
+            <value>
+                <fullName>La Gomera</fullName>
+                <default>false</default>
+                <label>La Gomera</label>
+            </value>
+            <value>
+                <fullName>Tenerife</fullName>
+                <default>false</default>
+                <label>Tenerife</label>
+            </value>
+            <value>
+                <fullName>Gran Canaria</fullName>
+                <default>false</default>
+                <label>Gran Canaria</label>
+            </value>
+            <value>
+                <fullName>Fuerteventura</fullName>
+                <default>false</default>
+                <label>Fuerteventura</label>
+            </value>
+            <value>
+                <fullName>Lanzarote</fullName>
+                <default>false</default>
+                <label>Lanzarote</label>
+            </value>
+            <value>
+                <fullName>Cantabria</fullName>
+                <default>false</default>
+                <label>Cantabria</label>
+            </value>
+            <value>
+                <fullName>Avila</fullName>
+                <default>false</default>
+                <label>Avila</label>
+            </value>
+            <value>
+                <fullName>Burgos</fullName>
+                <default>false</default>
+                <label>Burgos</label>
+            </value>
+            <value>
+                <fullName>León</fullName>
+                <default>false</default>
+                <label>León</label>
+            </value>
+            <value>
+                <fullName>Palencia</fullName>
+                <default>false</default>
+                <label>Palencia</label>
+            </value>
+            <value>
+                <fullName>Salamanca</fullName>
+                <default>false</default>
+                <label>Salamanca</label>
+            </value>
+            <value>
+                <fullName>Segovia</fullName>
+                <default>false</default>
+                <label>Segovia</label>
+            </value>
+            <value>
+                <fullName>Soria</fullName>
+                <default>false</default>
+                <label>Soria</label>
+            </value>
+            <value>
+                <fullName>Valladolid</fullName>
+                <default>false</default>
+                <label>Valladolid</label>
+            </value>
+            <value>
+                <fullName>Zamora</fullName>
+                <default>false</default>
+                <label>Zamora</label>
+            </value>
+            <value>
+                <fullName>Albacete</fullName>
+                <default>false</default>
+                <label>Albacete</label>
+            </value>
+            <value>
+                <fullName>Ciudad Real</fullName>
+                <default>false</default>
+                <label>Ciudad Real</label>
+            </value>
+            <value>
+                <fullName>Cuenca</fullName>
+                <default>false</default>
+                <label>Cuenca</label>
+            </value>
+            <value>
+                <fullName>Guadalajara</fullName>
+                <default>false</default>
+                <label>Guadalajara</label>
+            </value>
+            <value>
+                <fullName>Toledo</fullName>
+                <default>false</default>
+                <label>Toledo</label>
+            </value>
+            <value>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+                <label>Barcelona</label>
+            </value>
+            <value>
+                <fullName>Girona</fullName>
+                <default>false</default>
+                <label>Girona</label>
+            </value>
+            <value>
+                <fullName>Lleida</fullName>
+                <default>false</default>
+                <label>Lleida</label>
+            </value>
+            <value>
+                <fullName>Tarragona</fullName>
+                <default>false</default>
+                <label>Tarragona</label>
+            </value>
+            <value>
+                <fullName>Caceres</fullName>
+                <default>false</default>
+                <label>Caceres</label>
+            </value>
+            <value>
+                <fullName>Badajoz</fullName>
+                <default>false</default>
+                <label>Badajoz</label>
+            </value>
+            <value>
+                <fullName>A Coruna</fullName>
+                <default>false</default>
+                <label>A Coruna</label>
+            </value>
+            <value>
+                <fullName>Lugo</fullName>
+                <default>false</default>
+                <label>Lugo</label>
+            </value>
+            <value>
+                <fullName>Ourense</fullName>
+                <default>false</default>
+                <label>Ourense</label>
+            </value>
+            <value>
+                <fullName>Pontevedra</fullName>
+                <default>false</default>
+                <label>Pontevedra</label>
+            </value>
+            <value>
+                <fullName>La Rioja</fullName>
+                <default>false</default>
+                <label>La Rioja</label>
+            </value>
+            <value>
+                <fullName>Madrid</fullName>
+                <default>false</default>
+                <label>Madrid</label>
+            </value>
+            <value>
+                <fullName>Murcia</fullName>
+                <default>false</default>
+                <label>Murcia</label>
+            </value>
+            <value>
+                <fullName>Navarre</fullName>
+                <default>false</default>
+                <label>Navarre</label>
+            </value>
+            <value>
+                <fullName>Castellon</fullName>
+                <default>false</default>
+                <label>Castellon</label>
+            </value>
+            <value>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+                <label>Valencia</label>
+            </value>
+            <value>
+                <fullName>Alicante</fullName>
+                <default>false</default>
+                <label>Alicante</label>
+            </value>
+            <value>
+                <fullName>East 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>East 1</label>
             </value>
             <value>
                 <fullName>North 1</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>North 1</label>
             </value>
             <value>
                 <fullName>North-west 1</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>North-west 1</label>
+            </value>
+            <value>
+                <fullName>South 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>South 1</label>
+            </value>
+            <value>
+                <fullName>South 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>South 2</label>
+            </value>
+            <value>
+                <fullName>South 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>South 3</label>
             </value>
             <value>
                 <fullName>Western 1</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Western 1</label>
-            </value>
-            <value>
-                <fullName>East 1</fullName>
-                <default>false</default>
-                <label>East 1</label>
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>South</controllingFieldValue>
-            <valueName>South 1</valueName>
+            <controllingFieldValue>Cantabria</controllingFieldValue>
+            <valueName>Cantabria</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>South</controllingFieldValue>
-            <valueName>South 2</valueName>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>Avila</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>South</controllingFieldValue>
-            <valueName>South 3</valueName>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>Burgos</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>North</controllingFieldValue>
-            <valueName>North 1</valueName>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>León</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>North</controllingFieldValue>
-            <valueName>North-west 1</valueName>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>Palencia</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>West</controllingFieldValue>
-            <valueName>Western 1</valueName>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>Salamanca</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>East</controllingFieldValue>
-            <valueName>East 1</valueName>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>Segovia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>Soria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>Valladolid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Castile and Leon</controllingFieldValue>
+            <valueName>Zamora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Castilla–La Mancha</controllingFieldValue>
+            <valueName>Albacete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Castilla–La Mancha</controllingFieldValue>
+            <valueName>Ciudad Real</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Castilla–La Mancha</controllingFieldValue>
+            <valueName>Cuenca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Castilla–La Mancha</controllingFieldValue>
+            <valueName>Guadalajara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Castilla–La Mancha</controllingFieldValue>
+            <valueName>Toledo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalonia</controllingFieldValue>
+            <valueName>Barcelona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalonia</controllingFieldValue>
+            <valueName>Girona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalonia</controllingFieldValue>
+            <valueName>Lleida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catalonia</controllingFieldValue>
+            <valueName>Tarragona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremadura</controllingFieldValue>
+            <valueName>Caceres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extremadura</controllingFieldValue>
+            <valueName>Badajoz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Galicia</controllingFieldValue>
+            <valueName>A Coruna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Galicia</controllingFieldValue>
+            <valueName>Lugo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Galicia</controllingFieldValue>
+            <valueName>Ourense</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Galicia</controllingFieldValue>
+            <valueName>Pontevedra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>La Rioja</controllingFieldValue>
+            <valueName>La Rioja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madrid</controllingFieldValue>
+            <valueName>Madrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Murcia</controllingFieldValue>
+            <valueName>Murcia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andalusia</controllingFieldValue>
+            <valueName>Almeria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andalusia</controllingFieldValue>
+            <valueName>Cadiz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andalusia</controllingFieldValue>
+            <valueName>Cordoba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andalusia</controllingFieldValue>
+            <valueName>Granada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andalusia</controllingFieldValue>
+            <valueName>Huelva</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andalusia</controllingFieldValue>
+            <valueName>Jaen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andalusia</controllingFieldValue>
+            <valueName>Malaga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andalusia</controllingFieldValue>
+            <valueName>Seville</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aragon</controllingFieldValue>
+            <valueName>Huesca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aragon</controllingFieldValue>
+            <valueName>Zaragoza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aragon</controllingFieldValue>
+            <valueName>Teruel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asturias</controllingFieldValue>
+            <valueName>Asturias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Balearic Islands</controllingFieldValue>
+            <valueName>Mallorca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Balearic Islands</controllingFieldValue>
+            <valueName>Ibiza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Balearic Islands</controllingFieldValue>
+            <valueName>Menorca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Balearic Islands</controllingFieldValue>
+            <valueName>Formentera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basque Country</controllingFieldValue>
+            <valueName>Alava</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basque Country</controllingFieldValue>
+            <valueName>Biscay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basque Country</controllingFieldValue>
+            <valueName>Gipuzkoa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Navarre</controllingFieldValue>
+            <valueName>Navarre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canary Islands</controllingFieldValue>
+            <valueName>El Hierro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canary Islands</controllingFieldValue>
+            <valueName>La Palma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canary Islands</controllingFieldValue>
+            <valueName>La Gomera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canary Islands</controllingFieldValue>
+            <valueName>Tenerife</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canary Islands</controllingFieldValue>
+            <valueName>Gran Canaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canary Islands</controllingFieldValue>
+            <valueName>Fuerteventura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canary Islands</controllingFieldValue>
+            <valueName>Lanzarote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Valencia</controllingFieldValue>
+            <valueName>Castellon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Valencia</controllingFieldValue>
+            <valueName>Valencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Valencia</controllingFieldValue>
+            <valueName>Alicante</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

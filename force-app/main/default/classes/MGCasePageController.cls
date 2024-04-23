@@ -3,7 +3,8 @@ public without sharing class MGCasePageController {
     @AuraEnabled
     public static List<Case> getCases(String[] statuses) {
         Id userId = UserInfo.getUserId();
-        String soql = 'SELECT Id, CaseNumber, Subject, CreatedDate, Status, Region__c, Manufacture__c, Inspection_Types__c, Desired_inspection_start__c, ExperienceUrl__c, StatusIconLWC__c ' + 
+        String soql = 'SELECT Id, CaseNumber, Subject, CreatedDate, Status, Region__c, Manufacture__c, Inspection_Types__c, ' +
+            'Desired_inspection_start__c, ExperienceUrl__c, StatusIconLWC__c, CaseName__c ' + 
             'FROM Case WHERE RecordType.DeveloperName = \'Generators_support\' AND (CreatedById = :userId OR OwnerId = :userId)';
         
         if(statuses != null && !statuses.isEmpty()) {

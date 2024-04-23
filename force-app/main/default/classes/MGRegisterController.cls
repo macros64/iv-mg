@@ -19,7 +19,7 @@ public without sharing class MGRegisterController {
         List<Account> accList = [SELECT Id, Name FROM Account WHERE LicenseCode__c = :license];
         if(accList.isEmpty()) {
             ret.success = false;
-            ret.message = 'Licnse number does not belongs to any registered company';
+            ret.message = 'License number does not belongs to any registered company';
         } else if(accList.size() > 1) {
             ret.success = false;
             ret.message = 'Multiple companies found with this license number, please contact administrator';

@@ -1,4 +1,4 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, track } from 'lwc';
 import { NavigationMixin } from "lightning/navigation";
 
 import getCases from '@salesforce/apex/MGCasePageController.getCases';
@@ -11,7 +11,7 @@ export default class MrCasesListPage extends NavigationMixin(LightningElement) {
             label: 'Case Number', fieldName: 'ExperienceUrl__c', type: 'url', sortable: true, name: 'CaseNumber',
             typeAttributes: { label: { fieldName: 'CaseNumber' } }
         },
-        { label: 'Case Subject', fieldName: 'Subject', type: 'text' },
+        { label: 'Case Name', fieldName: 'CaseName__c', type: 'text' },
         { label: 'Created', fieldName: 'CreatedDate', type: 'date', sortable: true, name: 'CreatedDate' },
         { label: 'Insp. Date', fieldName: 'Desired_inspection_start__c', type: 'date', sortable: true, name: 'Desired_inspection_start__c' },
         { 
@@ -21,9 +21,9 @@ export default class MrCasesListPage extends NavigationMixin(LightningElement) {
                 { label: 'All', checked: false, name: 'allCases' },
             ],
             cellAttributes: { iconName: { fieldName: 'StatusIconLWC__c' } }
-        },
+        }/*,
         { label: 'Region', fieldName: 'Region__c', type: 'text' },
-        { label: 'Place', fieldName: 'Manufacture__c', type: 'text' }
+        { label: 'Place', fieldName: 'Manufacture__c', type: 'text' }*/
     ];
 
     sortDir = 'asc';
@@ -74,15 +74,16 @@ export default class MrCasesListPage extends NavigationMixin(LightningElement) {
     headerAction(event) {
         const actionName = event.detail.action.name;
         const colDef = event.detail.columnDefinition;
-
+        
         if(actionName === 'activeCases') {
             this.refreshCases(this.activeStats);
         } else if (actionName === 'allCases') {
             this.refreshCases(null);
         }
-        
-        let cols = JSON.parse(JSON.stringify(this.columns)); // quite stupid but it doesn't work wthout new object
-        const actions = cols[cols.indexOf(colDef)].actions;
+
+        const cols = JSON.parse(JSON.stringify(this.columns)); // quite stupid but it doesn't work wthout new object
+        const column = cols.find(el => el.fieldName == colDef.fieldName);
+        const actions = column.actions;
         actions.forEach((a) => {
             a.checked = a.name === actionName;
         });
