@@ -2,10 +2,8 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>StatusIconLWC__c</fullName>
     <externalId>false</externalId>
-    <formula>IF(
-AND(ISPICKVAL(Status, &apos;New&apos;), OwnerId = $User.Id),
-&quot;action:defer&quot;,
-IF(ISPICKVAL(Status, &apos;Working&apos;), &quot;action:approval&quot;, &quot;action:check&quot;)
+    <formula>IF(NextActor__c = $User.Id,&quot;action:defer&quot;,
+IF(OR(ISPICKVAL(Status, &apos;Working&apos;), ISPICKVAL(Status, &apos;Submitted&apos;), ISPICKVAL(Status, &apos;Approved&apos;)), &quot;action:approval&quot;, &quot;action:more&quot;)
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Status Icon LWC</label>
