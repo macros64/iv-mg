@@ -1,4 +1,4 @@
-public without sharing class MGCasePageController {
+public with sharing class MGCasePageController {
 
     @AuraEnabled
     public static List<Case> getCases(String[] statuses) {
