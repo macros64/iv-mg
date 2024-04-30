@@ -13,4 +13,16 @@ public with sharing class MGCasePageController {
 
         return Database.query(soql);
     }
+
+    @AuraEnabled
+    public static void acceptCase(Id caseId) {
+        try {
+            Case c = [SELECT Id, Status FROM Case WHERE Id = :caseId];
+
+            c.Status = 'Closed';
+            update c;
+        } catch (Exception ex) {
+            throw new AuraException(ex.getMessage());
+        }
+    }
 }

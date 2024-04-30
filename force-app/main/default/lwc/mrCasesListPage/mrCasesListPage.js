@@ -26,10 +26,10 @@ export default class MrCasesListPage extends NavigationMixin(LightningElement) {
         { label: 'Place', fieldName: 'Manufacture__c', type: 'text' }*/
     ];
 
-    sortDir = 'asc';
+    sortDir = 'desc';
     sortedBy = 'CaseNumber';
 
-    activeStats = ['Draft', 'Submitted', 'Approved', 'Working', 'Escalated'];
+    activeStats = ['Draft', 'Submitted', 'Approved', 'Working', 'Escalated', 'Completed'];
 
     connectedCallback() {
         this.refreshCases(this.activeStats);

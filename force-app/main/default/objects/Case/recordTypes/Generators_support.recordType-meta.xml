@@ -5,6 +5,268 @@
     <businessProcess>Generatordss support process</businessProcess>
     <label>Generators support</label>
     <picklistValues>
+        <picklist>Inspection_Types__c</picklist>
+        <values>
+            <fullName>Equipment inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacture process inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materials quality inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materials storage inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outcome count inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outcome quality inspection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Manufacture__c</picklist>
+        <values>
+            <fullName>A Coruna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alava</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albacete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alicante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Almeria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asturias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avila</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Badajoz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barcelona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biscay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burgos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caceres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cadiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cantabria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Castellon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ciudad Real</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cordoba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuenca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Hierro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formentera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fuerteventura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gipuzkoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Girona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gran Canaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Granada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guadalajara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Huelva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Huesca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ibiza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jaen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Gomera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Palma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Rioja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lanzarote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>León</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lleida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lugo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Madrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malaga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mallorca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Menorca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Murcia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Navarre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ourense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pontevedra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salamanca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Segovia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarragona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tenerife</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teruel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toledo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valladolid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zamora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zaragoza</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Origin</picklist>
         <values>
             <fullName>Email</fullName>
@@ -20,6 +282,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>PotentialLiability__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Priority</picklist>
         <values>
             <fullName>High</fullName>
@@ -32,6 +305,45 @@
         <values>
             <fullName>Medium</fullName>
             <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>GC1020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5060</fullName>
+            <default>false</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -62,6 +374,88 @@
         </values>
         <values>
             <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>Andalusia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aragon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asturias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Balearic Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basque Country</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canary Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cantabria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Castile and Leon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Castilla%E2%80%93La Mancha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catalonia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extremadura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Galicia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Rioja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Madrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Murcia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Navarre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valencia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLAViolation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
             <default>false</default>
         </values>
     </picklistValues>

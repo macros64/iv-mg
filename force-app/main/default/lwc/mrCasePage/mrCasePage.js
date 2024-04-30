@@ -3,6 +3,7 @@ import { getRecord } from "lightning/uiRecordApi";
 import toast from 'lightning/toast';
 import { NavigationMixin } from "lightning/navigation";
 import submitCase from '@salesforce/apex/MGSubmitCaseController.submitCase';
+import acceptCase from '@salesforce/apex/MGCasePageController.acceptCase';
 
 export default class MrCasePage extends NavigationMixin(LightningElement) {
     @api recordId;
@@ -35,6 +36,9 @@ export default class MrCasePage extends NavigationMixin(LightningElement) {
     get canEdit() {
         return this.ourCase?.data?.fields.Status.value == 'Draft';
     }
+    get canAccept() {
+        return this.ourCase?.data?.fields.Status.value == 'Completed';
+    }
 
     editClick() {
         this.mode = 'edit';
@@ -46,6 +50,35 @@ export default class MrCasePage extends NavigationMixin(LightningElement) {
             .then(() => {
                 toast.show({
                     label: 'Case submitted',
+                    variant: 'success'
+                }, this);
+
+                this[NavigationMixin.Navigate]({
+                    type: 'comm__namedPage',
+                    attributes: {
+                        name: 'My_open_cases__c' // TODO: move to attribute
+                    }
+                });
+            })
+            .catch(err => {
+                console.log(err);
+                toast.show({
+                    label: 'Error',
+                    message: err.body?.message,
+                    variant: 'error'
+                }, this);
+            })
+            .finally(() => { 
+                this.isLoading = false; 
+            });
+    }
+
+    acceptClick() {
+        this.isLoading = true;
+        acceptCase({ caseId : this.recordId })
+            .then(() => {
+                toast.show({
+                    label: 'Case accepted',
                     variant: 'success'
                 }, this);
 
